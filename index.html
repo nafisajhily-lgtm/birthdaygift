@@ -1,0 +1,1691 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Memory Gravity</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+   
+</head>
+
+<body>
+
+    <!-- =========================
+     LOADING PAGE
+========================= -->
+
+<div class="loading-page">
+<div class="loading-page">
+
+    <div class="digital-background"></div>
+<div class="background-depth"></div>
+    <div class="digital-grid"></div>
+   
+    <div class="digital-particles"></div>
+
+    <div class="cube-container">
+
+        <div class="memory-cube">
+ <div class="cube-sweep"></div>
+            <div class="cube-glow"></div>
+
+        </div>
+
+    </div>
+
+    <div class="loading-content">
+
+      <h2 class="loading-title">
+    Preparing Your Journey...
+</h2>
+    </div>
+
+</div>
+        <h2 class="loading-title">
+            Preparing Your Journey...
+        </h2>
+
+    </div>
+
+</div>
+  
+<!-- Home Page -->
+    <main class="home">
+
+        <div class="dream-background"></div>
+        <div id="star-field"></div>
+
+        <div class="dream-fog"></div>
+        <div class="aurora-light"></div>
+
+       <!-- MEMORY GRAVITY LOGO -->
+<div class="home-logo">
+    <img src="images/memory-gravity-logo.png" alt="Memory Gravity">
+</div>
+
+        <div class="tagline">
+
+            <div class="memory-line line1">
+                <span>Some memories are never lost</span>
+            </div>
+
+            <div class="memory-line line2">
+                <span>They simply wait... <br> until someone finds them</span>
+            </div>
+
+        </div>
+
+        <button class="start-btn">
+            <span>BEGIN THE JOURNEY</span>
+        </button>
+
+    </main>
+ 
+<!-- =========================================
+     MEMORY GUIDE PAGE
+========================================= -->
+
+<section id="memoryGuide" class="memory-guide">
+
+    <div class="mg-guide-content">
+
+        <!-- TITLE -->
+        <div class="mg-title-area">
+
+            <h1>MEMORY GUIDE</h1>
+
+            <div class="mg-title-line">
+                <span></span>
+                <div class="mg-diamond"></div>
+                <span></span>
+            </div>
+
+        </div>
+
+
+        <!-- MEMORY GUIDE LIST -->
+        <div class="mg-guide-list">
+
+            <!-- 01 BOX -->
+            <div class="mg-guide-row">
+
+                <div class="mg-icon">
+                    <img src="images/box.png" alt="">
+                </div>
+
+                <div class="mg-vertical-line"></div>
+
+                <div class="mg-text">
+                    Some memories are waiting to be uncovered
+                </div>
+
+            </div>
+
+
+            <!-- 02 MESSAGE -->
+            <div class="mg-guide-row">
+
+                <div class="mg-icon">
+                    <img src="images/message.png" alt="">
+                </div>
+
+                <div class="mg-vertical-line"></div>
+
+                <div class="mg-text">
+                   The answer is hidden inside this memory pass
+                </div>
+
+            </div>
+
+
+            <!-- 03 SEARCH -->
+            <div class="mg-guide-row">
+
+                <div class="mg-icon">
+                    <img src="images/search.png" alt="">
+                </div>
+
+                <div class="mg-vertical-line"></div>
+
+                <div class="mg-text">
+                    Read the text carefully and discover the name that unlocks it  <br>
+                    
+                </div>
+
+            </div>
+
+
+            <!-- 04 STAR -->
+            <div class="mg-guide-row">
+
+                <div class="mg-icon">
+                    <img src="images/star.png" alt="">
+                </div>
+
+                <div class="mg-vertical-line"></div>
+
+                <div class="mg-text">
+                    A special message will be received when the pass is unlocked
+                </div>
+
+            </div>
+
+
+            <!-- 05 MANY STAR -->
+            <div class="mg-guide-row">
+
+                <div class="mg-icon">
+                    <img src="images/many-star.png" alt="">
+                </div>
+
+                <div class="mg-vertical-line"></div>
+
+                <div class="mg-text">
+                  Collect all messages and click Next to reveal the surprise video
+                    
+                </div>
+
+            </div>
+
+
+            <!-- 06 START -->
+            <div class="mg-guide-row">
+
+                <div class="mg-icon">
+                    <img src="images/start.png" alt="">
+                </div>
+
+                <div class="mg-vertical-line"></div>
+
+                <div class="mg-text">
+                    Are you ready to begin ?
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- BUTTON AREA -->
+        <div class="mg-button-area">
+
+            <div class="mg-bottom-line">
+                <span></span>
+                <div class="mg-diamond"></div>
+                <span></span>
+            </div>
+
+            <button
+                id="enterMemoryRoom"
+                class="mg-enter-room-btn"
+                type="button"
+            >
+
+                <img
+                    src="images/start.png"
+                    alt=""
+                >
+
+                <span>ENTER THE MEMORY ROOM</span>
+
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================================================
+     MEMORY ROOM
+     MEMORY BOARDING PASS
+     STEP 2 — CORRECTED HTML
+========================================================= -->
+
+<section
+    id="memoryRoom"
+    class="memory-room"
+    aria-hidden="true"
+>
+
+    <!-- =====================================================
+         BACKGROUND
+    ====================================================== -->
+
+    <div class="memory-room-bg" aria-hidden="true">
+
+        <div class="memory-room-stars"></div>
+
+        <div class="memory-room-glow"></div>
+
+        <div class="memory-room-atmosphere"></div>
+
+    </div>
+
+
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
+
+    <header class="memory-room-header">
+
+        <div class="memory-room-title">
+
+            <span class="memory-room-eyebrow">
+                MEMORY GRAVITY
+            </span>
+
+            <h1>
+                MEMORY ROOM
+            </h1>
+
+        </div>
+
+        <span class="memory-room-label">
+            MEMORY ARCHIVE
+        </span>
+
+    </header>
+
+
+    <!-- =====================================================
+         MAIN STAGE
+    ====================================================== -->
+
+    <main class="memory-room-stage">
+
+
+        <!-- DECORATIVE BACK PASSES -->
+
+        <div
+            class="memory-back-pass memory-back-pass-left"
+            aria-hidden="true"
+        ></div>
+
+        <div
+            class="memory-back-pass memory-back-pass-right"
+            aria-hidden="true"
+        ></div>
+
+
+        <!-- =================================================
+             PASS 01
+        ================================================== -->
+
+        <article
+            class="memory-pass mr-pass is-active"
+            data-memory="1"
+            data-index="0"
+            aria-hidden="false"
+        >
+
+            <div class="memory-pass-inner">
+
+                <div class="memory-pass-decoration"></div>
+
+
+                <!-- PASS HEADER -->
+
+                <header class="memory-pass-header">
+
+                    <div class="memory-pass-brand">
+
+                        <span>
+                            MEMORY JOURNEY
+                        </span>
+
+                        <strong>
+                            MEMORY GRAVITY
+                        </strong>
+
+                    </div>
+
+                    <div class="memory-pass-number">
+                        PASS 01
+                    </div>
+
+                </header>
+
+
+                <!-- ROUTE -->
+
+                <div class="memory-pass-route">
+
+                    <div class="memory-route-point">
+
+                        <span>
+                            FROM
+                        </span>
+
+                        <strong>
+                           A Clue
+                        </strong>
+
+                    </div>
+
+
+                    <div class="memory-route-line">
+
+                        <i></i>
+                        <b></b>
+
+                        <span>
+                            MEMORY
+                        </span>
+
+                        <b></b>
+                        <i></i>
+
+                    </div>
+
+
+                    <div class="memory-route-point">
+
+                        <span>
+                            TO
+                        </span>
+
+                        <strong>
+                            A MEMORY
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================================================
+                     CLUE 01
+                     BOLD LETTERS = N A F I S A
+                ================================================== -->
+
+                <section class="memory-clue mr-clue">
+
+                    <span class="memory-section-label">
+                        MEMORY CLUE
+                    </span>
+
+                    <p>
+
+                        <strong>N</strong>ew memories begin
+                        with every birthday.
+
+                        <strong>A</strong>nother year brings
+                        new reasons to smile.
+
+                        <strong>F</strong>amily makes the
+                        celebration more meaningful.
+
+                        <strong>I</strong>mportant moments
+                        are often the simplest ones.
+
+                        <strong>S</strong>pecial wishes can
+                        stay in our hearts.
+
+                        <strong>A</strong>lways remember the
+                        people who make you happy.
+
+                    </p>
+
+                </section>
+
+
+                <!-- PASSWORD -->
+
+                <section class="memory-password mr-password-section">
+
+                    <label class="memory-section-label">
+                        MEMORY KEY
+                    </label>
+
+                    <div class="memory-password-row">
+
+                        <input
+                            class="memory-password-input mr-password-input"
+                            type="text"
+                            autocomplete="off"
+                            autocapitalize="characters"
+                            spellcheck="false"
+                            placeholder="ENTER PASSWORD"
+                        >
+
+                        <button
+                            class="memory-unlock-button mr-unlock-button"
+                            type="button"
+                        >
+                            BOARD MEMORY
+                        </button>
+
+                    </div>
+
+                    <span class="memory-password-error">
+                        THIS KEY DOES NOT OPEN THIS MEMORY
+                    </span>
+
+                </section>
+
+
+                <!-- HIDDEN MESSAGE -->
+
+                <section class="memory-message mr-message">
+
+                    <span class="memory-message-pass mr-message-pass">
+                        PASS 01
+                    </span>
+
+                    <div class="memory-hidden-message mr-hidden-message">
+                    </div>
+
+                </section>
+
+
+                <!-- FOOTER -->
+
+                <footer class="memory-pass-footer">
+
+                    <span>
+                        MEMORY ARCHIVE
+                    </span>
+
+                    <span>
+                        01 / 06
+                    </span>
+
+                </footer>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- =================================================
+             PASS 02
+             BOLD LETTERS = N A S H I T
+        ================================================== -->
+
+        <article
+            class="memory-pass mr-pass"
+            data-memory="2"
+            data-index="1"
+            aria-hidden="true"
+        >
+
+            <div class="memory-pass-inner">
+
+                <div class="memory-pass-decoration"></div>
+
+                <header class="memory-pass-header">
+
+                    <div class="memory-pass-brand">
+
+                        <span>
+                            MEMORY JOURNEY
+                        </span>
+
+                        <strong>
+                            MEMORY GRAVITY
+                        </strong>
+
+                    </div>
+
+                    <div class="memory-pass-number">
+                        PASS 02
+                    </div>
+
+                </header>
+
+
+                <div class="memory-pass-route">
+
+                    <div class="memory-route-point">
+                        <span>FROM</span>
+                        <strong>A Clue</strong>
+                    </div>
+
+                    <div class="memory-route-line">
+
+                        <i></i>
+                        <b></b>
+
+                        <span>MEMORY</span>
+
+                        <b></b>
+                        <i></i>
+
+                    </div>
+
+                    <div class="memory-route-point">
+                        <span>TO</span>
+                        <strong>A MEMORY</strong>
+                    </div>
+
+                </div>
+
+
+                <section class="memory-clue mr-clue">
+
+                    <span class="memory-section-label">
+                        MEMORY CLUE
+                    </span>
+
+                    <p>
+
+                        <strong>N</strong>othing makes
+                        an ordinary day more special
+                        than a birthday.
+
+                        A birthday cake can bring
+                        <strong>A</strong> smile to everyone.
+
+                        Family memories can
+                        <strong>S</strong>tay meaningful
+                        for years.
+
+                        The best moments are often
+                        <strong>H</strong>idden inside
+                        simple celebrations.
+
+                        A thoughtful gift can
+                        <strong>I</strong>mportantly
+                        remind someone they are loved.
+
+                        <strong>T</strong>he memories
+                        are what remain at the end.
+
+                    </p>
+
+                </section>
+
+
+                <section class="memory-password mr-password-section">
+
+                    <label class="memory-section-label">
+                        MEMORY KEY
+                    </label>
+
+                    <div class="memory-password-row">
+
+                        <input
+                            class="memory-password-input mr-password-input"
+                            type="text"
+                            autocomplete="off"
+                            autocapitalize="characters"
+                            spellcheck="false"
+                            placeholder="ENTER PASSWORD"
+                        >
+
+                        <button
+                            class="memory-unlock-button mr-unlock-button"
+                            type="button"
+                        >
+                            BOARD MEMORY
+                        </button>
+
+                    </div>
+
+                    <span class="memory-password-error">
+                        THIS KEY DOES NOT OPEN THIS MEMORY
+                    </span>
+
+                </section>
+
+
+                <section class="memory-message mr-message">
+
+                    <span class="memory-message-pass mr-message-pass">
+                        PASS 02
+                    </span>
+
+                    <div class="memory-hidden-message mr-hidden-message"></div>
+
+                </section>
+
+
+                <footer class="memory-pass-footer">
+
+                    <span>
+                        MEMORY ARCHIVE
+                    </span>
+
+                    <span>
+                        02 / 06
+                    </span>
+
+                </footer>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- =================================================
+             PASS 03
+             BOLD LETTERS = A R M A N
+        ================================================== -->
+
+        <article
+            class="memory-pass mr-pass"
+            data-memory="3"
+            data-index="2"
+            aria-hidden="true"
+        >
+
+            <div class="memory-pass-inner">
+
+                <div class="memory-pass-decoration"></div>
+
+                <header class="memory-pass-header">
+
+                    <div class="memory-pass-brand">
+
+                        <span>
+                            MEMORY JOURNEY
+                        </span>
+
+                        <strong>
+                            MEMORY GRAVITY
+                        </strong>
+
+                    </div>
+
+                    <div class="memory-pass-number">
+                        PASS 03
+                    </div>
+
+                </header>
+
+
+                <div class="memory-pass-route">
+
+                    <div class="memory-route-point">
+                        <span>FROM</span>
+                        <strong>A Clue</strong>
+                    </div>
+
+                    <div class="memory-route-line">
+
+                        <i></i>
+                        <b></b>
+
+                        <span>MEMORY</span>
+
+                        <b></b>
+                        <i></i>
+
+                    </div>
+
+                    <div class="memory-route-point">
+                        <span>TO</span>
+                        <strong>A MEMORY</strong>
+                    </div>
+
+                </div>
+
+
+                <section class="memory-clue mr-clue">
+
+                    <span class="memory-section-label">
+                        MEMORY CLUE
+                    </span>
+
+                    <p>
+
+                        <strong>A</strong> birthday can bring
+                        another reason to smile.
+
+                        Old memories can
+                        <strong>R</strong>eturn when familiar
+                        moments come back.
+
+                        Every
+                        <strong>M</strong>emory becomes
+                        more valuable with time.
+
+                        Sometimes
+                        <strong>A</strong> simple wish means
+                        more than a gift.
+
+                        And
+                        <strong>N</strong>othing feels better
+                        than being surrounded by people we love.
+
+                    </p>
+
+                </section>
+
+
+                <section class="memory-password mr-password-section">
+
+                    <label class="memory-section-label">
+                        MEMORY KEY
+                    </label>
+
+                    <div class="memory-password-row">
+
+                        <input
+                            class="memory-password-input mr-password-input"
+                            type="text"
+                            autocomplete="off"
+                            autocapitalize="characters"
+                            spellcheck="false"
+                            placeholder="ENTER PASSWORD"
+                        >
+
+                        <button
+                            class="memory-unlock-button mr-unlock-button"
+                            type="button"
+                        >
+                            BOARD MEMORY
+                        </button>
+
+                    </div>
+
+                    <span class="memory-password-error">
+                        THIS KEY DOES NOT OPEN THIS MEMORY
+                    </span>
+
+                </section>
+
+
+                <section class="memory-message mr-message">
+
+                    <span class="memory-message-pass mr-message-pass">
+                        PASS 03
+                    </span>
+
+                    <div class="memory-hidden-message mr-hidden-message"></div>
+
+                </section>
+
+
+                <footer class="memory-pass-footer">
+
+                    <span>
+                        MEMORY ARCHIVE
+                    </span>
+
+                    <span>
+                        03 / 06
+                    </span>
+
+                </footer>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- =================================================
+             PASS 04
+             BOLD LETTERS = F A R H I A
+        ================================================== -->
+
+        <article
+            class="memory-pass mr-pass"
+            data-memory="4"
+            data-index="3"
+            aria-hidden="true"
+        >
+
+            <div class="memory-pass-inner">
+
+                <div class="memory-pass-decoration"></div>
+
+                <header class="memory-pass-header">
+
+                    <div class="memory-pass-brand">
+
+                        <span>
+                            MEMORY JOURNEY
+                        </span>
+
+                        <strong>
+                            MEMORY GRAVITY
+                        </strong>
+
+                    </div>
+
+                    <div class="memory-pass-number">
+                        PASS 04
+                    </div>
+
+                </header>
+
+
+                <div class="memory-pass-route">
+
+                    <div class="memory-route-point">
+                        <span>FROM</span>
+                        <strong>A Clue</strong>
+                    </div>
+
+                    <div class="memory-route-line">
+
+                        <i></i>
+                        <b></b>
+
+                        <span>MEMORY</span>
+
+                        <b></b>
+                        <i></i>
+
+                    </div>
+
+                    <div class="memory-route-point">
+                        <span>TO</span>
+                        <strong>A MEMORY</strong>
+                    </div>
+
+                </div>
+
+
+                <section class="memory-clue mr-clue">
+
+                    <span class="memory-section-label">
+                        MEMORY CLUE
+                    </span>
+
+                    <p>
+
+                        <strong>F</strong>amily makes
+                        every birthday feel special.
+
+                        <strong>A</strong> simple wish can
+                        brighten the whole day.
+
+                        <strong>R</strong>emember the
+                        laughter shared with everyone.
+
+                        <strong>H</strong>appy moments
+                        often become our favorite memories.
+
+                        <strong>I</strong>mportant people
+                        make the celebration meaningful.
+
+                        <strong>A</strong>lways keep the
+                        happiest memories close.
+
+                    </p>
+
+                </section>
+
+
+                <section class="memory-password mr-password-section">
+
+                    <label class="memory-section-label">
+                        MEMORY KEY
+                    </label>
+
+                    <div class="memory-password-row">
+
+                        <input
+                            class="memory-password-input mr-password-input"
+                            type="text"
+                            autocomplete="off"
+                            autocapitalize="characters"
+                            spellcheck="false"
+                            placeholder="ENTER PASSWORD"
+                        >
+
+                        <button
+                            class="memory-unlock-button mr-unlock-button"
+                            type="button"
+                        >
+                            BOARD MEMORY
+                        </button>
+
+                    </div>
+
+                    <span class="memory-password-error">
+                        THIS KEY DOES NOT OPEN THIS MEMORY
+                    </span>
+
+                </section>
+
+
+                <section class="memory-message mr-message">
+
+                    <span class="memory-message-pass mr-message-pass">
+                        PASS 04
+                    </span>
+
+                    <div class="memory-hidden-message mr-hidden-message"></div>
+
+                </section>
+
+
+                <footer class="memory-pass-footer">
+
+                    <span>
+                        MEMORY ARCHIVE
+                    </span>
+
+                    <span>
+                        04 / 06
+                    </span>
+
+                </footer>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- =================================================
+             PASS 05
+             BOLD LETTERS = M A M U N
+        ================================================== -->
+
+        <article
+            class="memory-pass mr-pass"
+            data-memory="5"
+            data-index="4"
+            aria-hidden="true"
+        >
+
+            <div class="memory-pass-inner">
+
+                <div class="memory-pass-decoration"></div>
+
+                <header class="memory-pass-header">
+
+                    <div class="memory-pass-brand">
+
+                        <span>
+                            MEMORY JOURNEY
+                        </span>
+
+                        <strong>
+                            MEMORY GRAVITY
+                        </strong>
+
+                    </div>
+
+                    <div class="memory-pass-number">
+                        PASS 05
+                    </div>
+
+                </header>
+
+
+                <div class="memory-pass-route">
+
+                    <div class="memory-route-point">
+                        <span>FROM</span>
+                        <strong>A Clue</strong>
+                    </div>
+
+                    <div class="memory-route-line">
+
+                        <i></i>
+                        <b></b>
+
+                        <span>MEMORY</span>
+
+                        <b></b>
+                        <i></i>
+
+                    </div>
+
+                    <div class="memory-route-point">
+                        <span>TO</span>
+                        <strong>A MEMORY</strong>
+                    </div>
+
+                </div>
+
+
+                <section class="memory-clue mr-clue">
+
+                    <span class="memory-section-label">
+                        MEMORY CLUE
+                    </span>
+
+                    <p>
+
+                        <strong>M</strong>aking someone
+                        smile is one of the best parts
+                        of a birthday.
+
+                        <strong>A</strong> thoughtful wish
+                        can mean more than an expensive gift.
+
+                        <strong>M</strong>emories made
+                        today may stay for many years.
+
+                        <strong>U</strong>nexpected moments
+                        often become the funniest ones.
+
+                        <strong>N</strong>ever forget the
+                        people who make birthdays special.
+
+                    </p>
+
+                </section>
+
+
+                <section class="memory-password mr-password-section">
+
+                    <label class="memory-section-label">
+                        MEMORY KEY
+                    </label>
+
+                    <div class="memory-password-row">
+
+                        <input
+                            class="memory-password-input mr-password-input"
+                            type="text"
+                            autocomplete="off"
+                            autocapitalize="characters"
+                            spellcheck="false"
+                            placeholder="ENTER PASSWORD"
+                        >
+
+                        <button
+                            class="memory-unlock-button mr-unlock-button"
+                            type="button"
+                        >
+                            BOARD MEMORY
+                        </button>
+
+                    </div>
+
+                    <span class="memory-password-error">
+                        THIS KEY DOES NOT OPEN THIS MEMORY
+                    </span>
+
+                </section>
+
+
+                <section class="memory-message mr-message">
+
+                    <span class="memory-message-pass mr-message-pass">
+                        PASS 05
+                    </span>
+
+                    <div class="memory-hidden-message mr-hidden-message"></div>
+
+                </section>
+
+
+                <footer class="memory-pass-footer">
+
+                    <span>
+                        MEMORY ARCHIVE
+                    </span>
+
+                    <span>
+                        05 / 06
+                    </span>
+
+                </footer>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- =================================================
+             PASS 06
+             BOLD LETTERS = R U P A
+        ================================================== -->
+
+        <article
+            class="memory-pass mr-pass"
+            data-memory="6"
+            data-index="5"
+            aria-hidden="true"
+        >
+
+            <div class="memory-pass-inner">
+
+                <div class="memory-pass-decoration"></div>
+
+                <header class="memory-pass-header">
+
+                    <div class="memory-pass-brand">
+
+                        <span>
+                            MEMORY JOURNEY
+                        </span>
+
+                        <strong>
+                            MEMORY GRAVITY
+                        </strong>
+
+                    </div>
+
+                    <div class="memory-pass-number">
+                        PASS 06
+                    </div>
+
+                </header>
+
+
+                <div class="memory-pass-route">
+
+                    <div class="memory-route-point">
+                        <span>FROM</span>
+                        <strong>A Clue </strong>
+                    </div>
+
+                    <div class="memory-route-line">
+
+                        <i></i>
+                        <b></b>
+
+                        <span>MEMORY</span>
+
+                        <b></b>
+                        <i></i>
+
+                    </div>
+
+                    <div class="memory-route-point">
+                        <span>TO</span>
+                        <strong>A MEMORY</strong>
+                    </div>
+
+                </div>
+
+
+                <section class="memory-clue mr-clue">
+
+                    <span class="memory-section-label">
+                        MEMORY CLUE
+                    </span>
+
+                    <p>
+
+                        A birthday is a time to
+                        <strong>R</strong>emember
+                        the good things.
+
+                        <strong>U</strong>nexpected moments
+                        can make the celebration special.
+
+                        The people around us can make
+                        every
+                        <strong>P</strong>arty memorable.
+
+                        <strong>A</strong>lways enjoy the
+                        little moments while they last.
+
+                    </p>
+
+                </section>
+
+
+                <section class="memory-password mr-password-section">
+
+                    <label class="memory-section-label">
+                        MEMORY KEY
+                    </label>
+
+                    <div class="memory-password-row">
+
+                        <input
+                            class="memory-password-input mr-password-input"
+                            type="text"
+                            autocomplete="off"
+                            autocapitalize="characters"
+                            spellcheck="false"
+                            placeholder="ENTER PASSWORD"
+                        >
+
+                        <button
+                            class="memory-unlock-button mr-unlock-button"
+                            type="button"
+                        >
+                            BOARD MEMORY
+                        </button>
+
+                    </div>
+
+                    <span class="memory-password-error">
+                        THIS KEY DOES NOT OPEN THIS MEMORY
+                    </span>
+
+                </section>
+
+
+                <section class="memory-message mr-message">
+
+                    <span class="memory-message-pass mr-message-pass">
+                        PASS 06
+                    </span>
+
+                    <div class="memory-hidden-message mr-hidden-message"></div>
+
+                </section>
+
+
+                <footer class="memory-pass-footer">
+
+                    <span>
+                        MEMORY ARCHIVE
+                    </span>
+
+                    <span>
+                        06 / 06
+                    </span>
+
+                </footer>
+
+            </div>
+
+        </article>
+
+    </main>
+
+
+
+    <!-- =====================================================
+         NAVIGATION
+    ====================================================== -->
+
+    <nav
+        class="memory-navigation mr-navigation"
+        aria-label="Memory navigation"
+    >
+
+        <button
+            type="button"
+            class="memory-nav memory-prev mr-prev"
+            aria-label="Previous memory"
+        >
+            <span>←</span>
+            PREVIOUS
+        </button>
+
+
+        <div class="memory-dots">
+
+            <button
+                type="button"
+                class="memory-dot mr-dot is-active"
+                data-slide="0"
+                aria-label="Pass 1"
+            ></button>
+
+            <button
+                type="button"
+                class="memory-dot mr-dot"
+                data-slide="1"
+                aria-label="Pass 2"
+            ></button>
+
+            <button
+                type="button"
+                class="memory-dot mr-dot"
+                data-slide="2"
+                aria-label="Pass 3"
+            ></button>
+
+            <button
+                type="button"
+                class="memory-dot mr-dot"
+                data-slide="3"
+                aria-label="Pass 4"
+            ></button>
+
+            <button
+                type="button"
+                class="memory-dot mr-dot"
+                data-slide="4"
+                aria-label="Pass 5"
+            ></button>
+
+            <button
+                type="button"
+                class="memory-dot mr-dot"
+                data-slide="5"
+                aria-label="Pass 6"
+            ></button>
+
+        </div>
+
+
+        <button
+            type="button"
+            class="memory-nav memory-next mr-next"
+            aria-label="Next memory"
+        >
+            NEXT
+            <span>→</span>
+        </button>
+
+    </nav>
+
+</section>
+
+
+<!-- =========================================================
+     EXISTING SCRIPT
+     এটি রাখা হয়েছে — DELETE করা যাবে না
+========================================================= -->
+
+<script src="js/script.js"></script>
+
+
+<!-- =========================================================
+     MEMORY GUIDE → MEMORY ROOM
+     EXISTING LOADING FLOW PRESERVED
+========================================================= -->
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    document.addEventListener("click", function (event) {
+
+        const button = event.target.closest(
+            "button, a"
+        );
+
+        if (!button) return;
+
+
+        const text = button.textContent
+            .replace(/\s+/g, " ")
+            .trim()
+            .toUpperCase();
+
+
+        if (text !== "ENTER THE MEMORY ROOM") {
+            return;
+        }
+
+
+        event.preventDefault();
+        event.stopPropagation();
+
+
+        const guide =
+            document.querySelector(".memory-guide");
+
+
+        const room =
+            document.querySelector("#memoryRoom");
+
+
+        if (!room) {
+
+            console.error(
+                "ERROR: #memoryRoom পাওয়া যায়নি"
+            );
+
+            return;
+
+        }
+
+
+        /* Hide Guide */
+
+        if (guide) {
+
+            guide.style.display = "none";
+
+        }
+
+
+        /* Show Memory Room */
+
+        room.classList.add("mr-visible");
+        room.classList.add("active");
+
+
+        room.setAttribute(
+            "aria-hidden",
+            "false"
+        );
+
+
+        room.style.display = "flex";
+        room.style.visibility = "visible";
+        room.style.opacity = "1";
+        room.style.pointerEvents = "auto";
+
+
+        /* First Memory */
+
+        const passes =
+            room.querySelectorAll(".mr-pass");
+
+
+        passes.forEach(function (pass, index) {
+
+            pass.classList.toggle(
+                "is-active",
+                index === 0
+            );
+
+
+            pass.setAttribute(
+                "aria-hidden",
+                index === 0
+                    ? "false"
+                    : "true"
+            );
+
+        });
+
+
+        console.log(
+            "MEMORY ROOM OPENED"
+        );
+
+    }, true);
+
+});
+</script>
+
+<!-- =========================================================
+     FINAL VIDEO PAGE
+     MEMORY ROOM → FINAL VIDEO
+========================================================= -->
+
+<section
+    id="finalVideoPage"
+    class="final-video-page"
+    aria-hidden="true"
+>
+
+    <!-- =====================================================
+         VIDEO BACKGROUND
+    ====================================================== -->
+
+    <div
+        class="final-video-background"
+        aria-hidden="true"
+    ></div>
+
+
+    <!-- =====================================================
+         VIDEO STAGE
+    ====================================================== -->
+
+    <div class="final-video-stage">
+
+        <video
+            id="finalVideo"
+            class="final-video-element"
+
+            preload="auto"
+
+            playsinline
+            webkit-playsinline
+
+            disablepictureinpicture
+
+            controlslist="nodownload noplaybackrate nofullscreen"
+
+            aria-label="Final Birthday Video"
+        >
+
+            <!-- =================================================
+                 IMPORTANT:
+                 এখানে তোমার LANDSCAPE VIDEO-এর path বসাবে।
+                 
+                 Example:
+                 videos/final-video.mp4
+            ================================================== -->
+
+            <source
+                src="videos/final-video.mp4"
+                type="video/mp4"
+            >
+
+            Your browser does not support HTML5 video.
+
+        </video>
+
+    </div>
+
+
+    <!-- =====================================================
+         CINEMATIC OVERLAY
+         Opening / Ending transition-এর জন্য
+    ====================================================== -->
+
+    <div
+        class="final-video-cinematic-overlay"
+        aria-hidden="true"
+    ></div>
+
+
+</section>
+<!-- =========================================================
+     ENDING PAGE
+     FINAL VIDEO → THE FADING MEMORY
+========================================================= -->
+
+<section
+    id="endingPage"
+    class="ending-page"
+    aria-hidden="true"
+>
+
+    <!-- =====================================================
+         ENDING BACKGROUND
+    ====================================================== -->
+
+    <div
+        class="ending-background"
+        aria-hidden="true"
+    ></div>
+
+
+    <!-- =====================================================
+         SOFT MEMORY LIGHT
+    ====================================================== -->
+
+    <div
+        class="ending-memory-light"
+        aria-hidden="true"
+    ></div>
+
+
+    <!-- =====================================================
+         ENDING CONTENT
+    ====================================================== -->
+
+    <main class="ending-content">
+
+        <!-- =================================================
+             MEMORY TEXT
+        ================================================== -->
+
+        <div class="ending-message">
+
+            <p class="ending-line ending-line-1">
+                Today another beautiful moment took its place in my memory.
+            </p>
+
+            <p class="ending-line ending-line-2">
+                Yet no distance could take it away.
+            </p>
+
+            <p class="ending-line ending-line-3">
+                But our time is fleeting like this.
+            </p>
+
+            <div class="ending-final-lines">
+
+                <p class="ending-line ending-line-4">
+                    Waiting for the day
+                </p>
+
+                <p class="ending-line ending-line-5">
+                    When we will meet you again.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             RETURN BUTTON
+        ================================================== -->
+
+        <div class="ending-action">
+
+            <button
+                id="returnToMemories"
+                class="ending-return-button"
+                type="button"
+            >
+                <span class="ending-button-text">
+                    RETURN TO THE MEMORIES
+                </span>
+
+                <span
+                    class="ending-button-line"
+                    aria-hidden="true"
+                ></span>
+
+            </button>
+
+        </div>
+
+    </main>
+
+
+    <!-- =====================================================
+         FINAL FADE
+    ====================================================== -->
+
+    <div
+        class="ending-fade-overlay"
+        aria-hidden="true"
+    ></div>
+
+</section>
+
+
+
+<!-- ========================================================= 
+     EXISTING SCRIPT
+========================================================= -->
+
+<script src="js/script.js"></script>
+
+</script>
+</body>
+</html>
